@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/ic_hadeethbackground">
+  
+  <TextView android:id="@+id/title"
+  			android:layout_width="match_parent"
+  			android:layout_height="40dip" 
+  			android:gravity="center_horizontal"  			
+  			android:textSize="25dip"  
+  			android:textColor="@color/color_black"  			 
+  			/>
+  <ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:scrollbars="vertical|horizontal">	
+  <TextView android:id="@+id/content" 
+  		android:layout_width="match_parent"
+  		android:layout_height="fill_parent"
+  		android:scrollbars="horizontal|vertical"
+  		android:textColor="@color/color_black"
+  		android:textSize="25dip"
+  		android:textStyle="bold"
+  		android:layout_margin="5dip"
+  		android:layout_marginLeft="15dip"
+  		android:layout_marginRight="15dip"
+  		android:layout_alignParentBottom="true"
+  		android:gravity="right|center" 
+  />        
+ </ScrollView>   
+    
+</LinearLayout>
